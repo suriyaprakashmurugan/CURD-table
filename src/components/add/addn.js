@@ -113,3 +113,59 @@
 //     </div>
 //   )
 // }
+
+
+// import React from 'react';
+// import {Input, Modal} from 'antd';
+
+// export default function Add({student, resetAdding, setData, newStudent, setNewStudent}) {
+//   return (
+//     <div>
+//         <Modal
+//         title="Adding Student"
+//         visible={student}
+//         okText="Save"
+//         onCancel={() => {
+//           resetAdding();
+//         }}
+//         onOk={() => {
+//           setData((pre) => {
+//             if(newStudent !== ''){
+//             return [...pre, newStudent];
+//             }
+//           });
+          
+//           document.getElementById("")
+
+//           resetAdding();
+//         }}
+//       >
+//         <Input
+//           placeholder="Student Name"
+//           onChange={(e) => {
+//             setNewStudent(() => {
+//               const randomNumber = parseInt(Math.random() * 1000);
+//               return { name: e.target.value, id: randomNumber };
+//             });
+//           }}
+//         /><br/><br/>
+//         <Input
+//           placeholder="Student Email"
+//           onChange={(e) => {
+//             setNewStudent((pre) => {
+//               return { ...pre, email: e.target.value };
+//             });
+//           }}
+//         /><br/><br/>
+//         <Input
+//           placeholder="Student Address"
+//           onChange={(e) => {
+//             setNewStudent((pre) => {
+//               return { ...pre, address: e.target.value };
+//             });
+//           }}
+//         /><br/>
+//       </Modal>
+//     </div>
+//   )
+// }

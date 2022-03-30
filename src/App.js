@@ -89,7 +89,6 @@ function App() {
   ];
 
   const [student, setStudent] = useState(false);
-  const [newStudent, setNewStudent] = useState(null);
   const [editing,setEditing] = useState(false);
   const [edited,setEdited] = useState(null)
 
@@ -151,10 +150,8 @@ function App() {
 
           <Add
           student={student}
-          newStudent={newStudent}
           resetAdding={resetAdding}
           setData={setData}
-          setNewStudent={setNewStudent}
           />
 
       <Table columns={columns} dataSource={data}></Table>
