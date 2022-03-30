@@ -35,6 +35,7 @@ function App() {
       address: "123vignesh"
     }
   ]);
+  
 
   // const getStudent =async () =>{
   //   try{
@@ -51,6 +52,7 @@ function App() {
   // useEffect(()=>{
   //   getStudent()
   // },[])
+
 
   //columns for table
   const columns = [
