@@ -1,0 +1,28 @@
+{
+    "data": [
+        {
+          "id": 1,
+          "name": "suriya",
+          "email": "123suriya@gmail.com",
+          "address": "123suriya"
+        },
+        {
+          "id": 2,
+          "name": "prakash",
+          "email": "123prakash@gmail.com",
+          "address": "123prakash"
+        },
+        {
+          "id": 3,
+          "name": "karna",
+          "email": "123karna@gmail.com",
+          "address": "123karna"
+        },
+        {
+          "id": 4,
+          "name": "vignesh",
+          "email": "123vignesh@gmail.com",
+          "address": "123vignesh"
+        }
+      ]
+}
